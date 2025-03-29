@@ -1,0 +1,261 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url('https://pbs.twimg.com/media/GWDhVF5bEAARnRx?format=jpg&name=large');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+#header {
+
+position:fixed;
+top:0;
+left: 0;
+width: 98%;
+height: 80px;
+background: #86cecb;
+z-index: 1000; /* make sure that the header stays on top of everything */
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 1%;
+
+
+
+}
+
+.pageNavi {
+	display: flex;
+	gap: 20px;
+}
+
+.pageNavi a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.pageNavi a : hover {
+cursor: pointer;
+color: #e12885;
+}
+
+
+
+#title {
+
+	font-family: 'Jua', sans-serif;
+	font-size: 50px;
+	color: #e12885;
+	padding: 10px;
+}
+
+.pageNavi {
+	display: inline-block;
+	justify-content: flex-end;
+	flex-direction: row;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+#contents {
+	background: rgba(255, 255, 255, 0.80);
+	padding: 30px;
+	width: 60%;
+
+	margin-top: 40px;
+}
+
+#sectionTitle{
+	font-family: 'Jua', sans-serif;
+	font-size: 80px;
+	color: #137a7f;
+	text-align: center;
+	margin-top: 80px;
+}
+
+#subSectionTitle {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 40px;
+	color: #e12885;
+}
+
+#bodyText {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
+}
+
+#colorCode01 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	color: #86cecb;
+	background: #373b3e;
+	height: 40px;
+	width: 300px;
+}
+
+#colorCode02 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	background: #bec8d1;
+	height: 40px;
+	width: 300px;
+}
+
+#colorCode03 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	background: #86cecb;
+	height: 40px;
+	width: 300px;
+}
+
+#colorCode04 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	background: #137a7f;
+	height: 40px;
+	width: 300px;
+}
+
+#colorCode05 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	background: #e12885;
+	height: 40px;
+	width: 300px;
+}
+
+
+.carouselContainer {
+	position: relative;
+	width: 1150px;
+	height: 800px;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.carousel {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+	width: 100%;
+	display: none;
+
+}
+
+.slide.active {
+
+	display: block;
+}
+
+.prev, .next {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+#song {
+	margin-top: 40px;
+	padding: 20px;
+	width: 100%;
+
+
+}
+
+.songList {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin: auto;
+
+}
+
+.songBox {
+	width: 31%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.songBox img {
+	width: 100%;
+}
+
+
+#about {
+	display: flex;
+	align-items: stretch; /* the text section and the img section will have the same height */
+	gap: 20px;
+
+}
+
+#charaInfoImg {
+margin-top: 40px;
+}
+
+#charaInfoText {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+	height: 100%;
+
+}
+
+
+#scrollToTop {
+	width: 60%;
+	height: 40px;
+	font-family: "Lexend Deca", sans-serif;
+	font-size: 16px;
+	color: #e12885;
+	background: #86cecb;
+	border: none;
+
+}
+
+#contents, #scrollToTop {
+	box-sizing: border-box;
+}
