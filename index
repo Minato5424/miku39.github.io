@@ -43,7 +43,7 @@
 
 				<button class="next" onclick="nextSlide()">></button>
 			</div>
-		<script src="js/script.js"></script>
+		<script src="script.js"></script>
 		</section>
 
 
@@ -158,7 +158,7 @@
 	    Back to Top
 	</button>
 
-	<script src="js/script.js"></script>
+	<script src="script.js"></script>
 
 </body>
 </html>
