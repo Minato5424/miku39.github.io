@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hatsune Miku Fan Page</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--a header with page navigation that brings the user to the section when clicking-->
+	<div id = "header">
+		<div id = "title">
+			HATSUNE MIKU
+		</div>
+		<nav class="pageNavi">
+			<a href="#top">Top</a>
+			<a href="#about">About</a>
+			<a href="#song">Songs</a>
+		</nav>
+	</div>
+
+	<!--Main Contents-->
+	<div id="contents">
+
+		<section id="top">
+			<div class="carouselContainer">
+				<button class="prev" onclick="prevSlide()"><</button>
+
+				<div class="carousel">
+					<img class = "slide" src="https://pbs.twimg.com/media/GVAv1hJbYAA8rYR?format=jpg&name=large">
+					<img class = "slide" src="https://pbs.twimg.com/media/Dn3inixU8AA-KEx?format=png&name=large">
+					<img class = "slide" src="https://pbs.twimg.com/media/DfjqWNfWkAAHywQ?format=png&name=large">
+					<img class = "slide" src="images/FtPlvLaaUAcvIk0.jpg">
+					<img class = "slide" src="images/92ccf492gy1hay65fts1jj21b80xcdo5.jpg">
+					<img class = "slide" src="images/FzOw3YeaYAUx2lR.jfif">
+					<img class = "slide" src="images/FzOw3ZSaYAAYJnn.jfif">
+					<img class = "slide" src="images/FlyOAbHagAAJbwh.jfif">
+					<img class = "slide" src="https://pbs.twimg.com/media/Fn3xA5FagAA64uk?format=jpg&name=4096x4096">
+					<img class = "slide" src="https://pbs.twimg.com/media/GewvBcsbcAAYeOX?format=jpg&name=large">
+				</div>
+
+				<button class="next" onclick="nextSlide()">></button>
+			</div>
+		<script src="js/script.js"></script>
+		</section>
+
+
+		<!--An About Page with character information-->
+		<h1 id='sectionTitle'>About Miku</h1>
+		<p id="bodyText">Hatsune Miku is a music software developed by Crypton Future Media, INC., which enables anyone to make their computer sing by entering lyrics and melodies. As a massive number of users created music using the software and posted their works on the Internet, Hatsune Miku quickly evolved into a cultural phenomenon. Since then, Hatsune Miku has gained much attention as a character, involved in many fields such as merchandising and live performance as a virtual singer. Now her popularity has spread across the globe.</p>
+
+		<section id = 'about'>
+
+			<div id="charaInfoText">
+				
+
+				<h2 id="subSectionTitle">Character Information</h2>
+				<p id="bodyText">Age: 16 <br>Height: 158cm <br>Weight: 42kg <br>Colour: Blue-Green</p>
+
+				<h2 id="subSectionTitle">Colour Palette</h2>
+				<p id="colorCode01">#373b3e</p>
+				<p id="colorCode02">#bec8d1</p>
+				<p id="colorCode03">#86cecb</p>
+				<p id="colorCode04">#137a7f</p>
+				<p id="colorCode05">#e12885</p>
+
+			</div>
+
+			<div id = 'charaInfoImg'>
+				<img src="https://piapro.net/intl/images/ch_img_miku.png">
+			</div>
+
+		</section>
+
+
+		<!--Song section. When the user clicks on the box, they will be brought to the YouTube link-->
+		<section id="song">
+			<h1 id="sectionTitle">Songs</h1>
+			<p id="bodyText">Some songs I like : )</p>
+
+			<div class="songList">
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=JW3N-HvU0MA">
+    					<img src="https://img.youtube.com/vi/JW3N-HvU0MA/0.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">Shoujo Rei</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=T6kVa48UbUw">
+    					<img src="https://img.youtube.com/vi/T6kVa48UbUw/0.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">Deep Sea Girl</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=9HrOqmiEsN8">
+    					<img src="https://img.youtube.com/vi/9HrOqmiEsN8/0.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">Romeo and Cinderella</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=p2Irc9NPCtk">
+    					<img src="https://img.youtube.com/vi/p2Irc9NPCtk/0.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">Patchwork Staccato</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=CcILr3E7T_8">
+    					<img src="https://img.youtube.com/vi/CcILr3E7T_8/0.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">Goodbye Tender</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=hxSg2Ioz3LM">
+    					<img src="https://img.youtube.com/vi/hxSg2Ioz3LM/0.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">HIBANA</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=0HYm60Mjm0k">
+    					<img src="https://img.youtube.com/vi/0HYm60Mjm0k/hqdefault.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">Life Hates Us Now.</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=HUzLUGKwQJc">
+    					<img src="https://img.youtube.com/vi/HUzLUGKwQJc/hqdefault.jpg" alt="Watch on YouTube">
+					</a>
+					<p id="bodyText">ODDS&ENDS</p>
+				</div>
+
+				<div class="songBox">
+					<a href="https://www.youtube.com/watch?v=U0bTlwXLUmM">
+    					<img src="https://img.youtube.com/vi/U0bTlwXLUmM/hqdefault.jpg">
+					</a>
+					<p id="bodyText">Reunion</p>
+				</div>
+
+			</div>
+
+
+		</section>
+
+
+
+	</div>
+
+	<!--a button a the bottom of the page to bring the user to the top of the page-->
+	<button id="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+	    Back to Top
+	</button>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
